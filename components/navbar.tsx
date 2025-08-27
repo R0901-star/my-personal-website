@@ -17,7 +17,7 @@ const Navbar = () => {
           className="flex flex-col items-center font-semibold hover:text-blue-500 hover:scale-110 transition-colors"
         >
           <div className="flex flex-col items-center">
-            <Image src="/icons/home.png" alt="Home icon" className="w-6 h-6" />
+            <Image src="/icons/home.png" alt="Home icon" width={24} height={24} />
             <span>Home</span>
           </div>
         </Link>
@@ -30,7 +30,7 @@ const Navbar = () => {
               <Image
                 src={page.icon}
                 alt={`${page.name}icon`}
-                className="w-6 h-6"
+                width={24} height={24} 
               />
               {page.name}
             </Link>
