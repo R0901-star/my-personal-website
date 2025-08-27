@@ -122,11 +122,11 @@ export default function About() {
             </div>
             <ul className="space-y-2 text-lg text-gray-200">
               <li>
-                <strong>Bachelor's Degree</strong> in Computer Science &
+                <strong>Bachelor&apos;s Degree</strong> in Computer Science &
                 Mathematics - University of Arizona, May 2018
               </li>
               <li>
-                <strong>Master's Degree</strong> in Computer Science - San
+                <strong>Master&apos;s Degree</strong> in Computer Science - San
                 Francisco Bay University
               </li>
             </ul>
